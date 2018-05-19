@@ -31,5 +31,5 @@ void formataDados(Registro *registro, int contador){
 
 void insereNoArquivo(FILE *arquivo, Registro *registro){
 	
-	fprintf(arquivo, "%.8s%.40s%.40s%.12s\n", registro->chave, registro->nome, registro->email, registro->telefone);
+	fprintf(arquivo, "%.8s%.40s%.40s%.12s", registro->chave, registro->nome, registro->email, registro->telefone);
 }
