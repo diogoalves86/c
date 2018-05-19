@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define NOME_ARQUIVO "arq.dat"
+
 struct _Registro{
 	char chave[8];
 	char nome[40];

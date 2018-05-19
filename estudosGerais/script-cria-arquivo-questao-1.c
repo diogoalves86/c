@@ -3,7 +3,7 @@
 #include "registroUtils.h"
 
 int main (void){
-	FILE *arquivo = fopen("arq.dat", "w");
+	FILE *arquivo = fopen(NOME_ARQUIVO, "w");
 	Registro registro;
 
 	for (int i = 0; i < 100; i++)
