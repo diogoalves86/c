@@ -17,7 +17,7 @@ int main (void){
 		printf("%.40s\n", registro.email);
 		printf("%.12s\n", registro.telefone);
 		fprintf(arquivo, "%.8s%.40s%.40s%.12s\n", registro.chave, registro.nome, registro.email, registro.telefone);
-		printf("Registro inserido com sucesso! :D");
+		printf("Registro inserido com sucesso! :D\n");
 	}
 	printf("Arquivo criado com sucesso!\n");
 	
