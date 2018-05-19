@@ -8,10 +8,10 @@ int main (void){
 
 	for (int i = 0; i < 100; i++)
 	{
-		snprintf(registro.chave, sizeof(registro.chave), "chav%.2d", i);
-		snprintf(registro.nome, sizeof(registro.nome), "esteeumnomelegal%.2d", i);
-		snprintf(registro.email, sizeof(registro.email), "esteeumemailegal%.2d", i);
-		snprintf(registro.telefone, sizeof(registro.telefone), "tel%.2d", i);
+		sprintf(registro.chave, "chav%.2d", i);
+		sprintf(registro.nome, "esteeumnomelegal%.2d", i);
+		sprintf(registro.email, "esteeumemailegal%.2d", i);
+		sprintf(registro.telefone, "tel%.2d", i);
 		printf("%.8s\n", registro.chave);
 		printf("%.40s\n", registro.nome);
 		printf("%.40s\n", registro.email);
